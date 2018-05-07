@@ -1,0 +1,8 @@
+zuul:
+  ignored-services: '*'
+  routes:
+    customerschool: /customerproxy/**
+    classroomschool: /classroomproxy/**
+    classcustomerschool: /classcustomerproxy/**
+    classcustomerviewschool: /classcustomerviewproxy/**
+    
