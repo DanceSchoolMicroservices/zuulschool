@@ -7,8 +7,6 @@ zuul:
     classcustomerviewschool: /classcustomerviewproxy/**
 
 eureka:
-  instance:
-    hostname: localhost
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/       
