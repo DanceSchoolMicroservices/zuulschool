@@ -5,6 +5,7 @@ zuul:
     classroomschool: /classroomproxy/**
     classcustomerschool: /classcustomerproxy/**
     classcustomerviewschool: /classcustomerviewproxy/**
+    securityschool: /securityproxy/**
 
 eureka:
   client:
