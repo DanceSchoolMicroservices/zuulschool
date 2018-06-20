@@ -1,5 +1,6 @@
 zuul:
   ignored-services: '*'
+  ignoreSecurityHeaders: true
   routes:
     customerschool: /customerproxy/**
     classroomschool: /classroomproxy/**
