@@ -7,6 +7,10 @@ zuul:
     classcustomerschool: /classcustomerproxy/**
     classcustomerviewschool: /classcustomerviewproxy/**
     
+logging:
+  level:
+    org.springframework.security: DEBUG    
+    
 eureka:
   client:
     serviceUrl:
