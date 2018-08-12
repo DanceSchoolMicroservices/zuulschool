@@ -1,12 +1,3 @@
-zuul:
-  ignored-services: '*'
-  ignoreSecurityHeaders: true
-  routes:
-    customerschool: /customerproxy/**
-    classroomschool: /classroomproxy/**
-    classcustomerschool: /classcustomerproxy/**
-    classcustomerviewschool: /classcustomerviewproxy/**
-    
 logging:
   level:
     org.springframework.security: DEBUG    
