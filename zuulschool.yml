@@ -1,6 +1,15 @@
 server:
   port: 8762
   
+zuul:
+  ignored-services: '*'
+  ignoreSecurityHeaders: true
+  routes:
+    customerschool: /customerproxy/**
+    classroomschool: /classroomproxy/**
+    classcustomerschool: /classcustomerproxy/**
+    classcustomerviewschool: /classcustomerviewproxy/**  
+  
 eureka:
   instance:
     preferIpAddress: true
